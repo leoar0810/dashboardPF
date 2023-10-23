@@ -1,0 +1,13 @@
+.model {
+  display: grid;
+  justify-content: center;
+}
+
+.model img {
+  height: 70vh;
+}
+
+.model h2 {
+  display: flex;
+  justify-content: center;
+}

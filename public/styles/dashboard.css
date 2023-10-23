@@ -1,0 +1,11 @@
+.dashboard {
+  display: grid;
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+.dashboard div h2 {
+  display: flex;
+  justify-content: center;
+}
