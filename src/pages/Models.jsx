@@ -2,9 +2,21 @@ import "../../public/styles/models.css";
 
 export default function Models() {
   return (
-    <div className="model">
-      <h2>Sección en implementación</h2>
-      <img src="../../public/img/python_logo.png" alt="asdf" />
+    <div className="dashboard">
+      <div>
+        <h2>
+          Estadísticas sobre las empresas más grandes de colombia
+          (clusterizadas)
+        </h2>
+      </div>
+      <iframe
+        title="Report Section"
+        width="900"
+        height="600"
+        src="https://app.powerbi.com/view?r=eyJrIjoiMmU0NjdiYTQtOWJiYi00ZGIzLWFmZjgtMjAxMGFhN2I3ZDFjIiwidCI6ImJhYjBiNjc5LWJkNWYtNGZlOC1iNTE2LWM2YjhiMzE3Yzc4MiIsImMiOjR9"
+        frameBorder="0"
+        allowFullScreen="true"
+      ></iframe>
     </div>
   );
 }

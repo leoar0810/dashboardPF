@@ -4,7 +4,7 @@ export default function Dashboard() {
   return (
     <div className="dashboard">
       <div>
-        <h2>Estadísticas sobre las empresas mas grandes de colombia</h2>
+        <h2>Estadísticas sobre las empresas más grandes de colombia</h2>
       </div>
       <iframe
         title="Report Section"
