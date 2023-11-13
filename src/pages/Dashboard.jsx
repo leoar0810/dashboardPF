@@ -8,8 +8,8 @@ export default function Dashboard() {
       </div>
       <iframe
         title="Report Section"
-        width="900"
-        height="600"
+        width="1300"
+        height="1100"
         src="https://app.powerbi.com/view?r=eyJrIjoiMjc3YjZiNGQtMGQ2NC00ZThlLWE2ZGQtYTkwZWEwZjllNDY0IiwidCI6ImJhYjBiNjc5LWJkNWYtNGZlOC1iNTE2LWM2YjhiMzE3Yzc4MiIsImMiOjR9"
         frameBorder="0"
         allowFullScreen="true"

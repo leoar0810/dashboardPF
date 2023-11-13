@@ -12,6 +12,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/models" element={<Models />} />
+          <Route path="/dashboardPF" element={<Dashboard />} />
         </Routes>
       </div>
       <Footer />
