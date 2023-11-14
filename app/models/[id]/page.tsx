@@ -33,7 +33,7 @@ export default function ModelDetail({ params }: any) {
             }
             <iframe
                 title="Report Section"
-                className="grow min-h-full mx-auto xl:w-[1300px] xl:h-[700px]"
+                className="grow min-h-full mx-auto w-full xl:h-[700px]"
                 src={model?.dashboard}
                 allowFullScreen={true}
             ></iframe>

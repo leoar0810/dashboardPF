@@ -6,7 +6,7 @@ import { Image } from "@nextui-org/react";
 
 export default function Home() {
 	return (
-		<section className="flex flex-col gap-8 min-w-full min-h-screen ">
+		<section className="flex flex-col gap-2 min-w-full min-h-screen ">
 
 			<div className="w-full">
 				<img
@@ -17,10 +17,10 @@ export default function Home() {
 				/>
 			</div>
 
-			<div className="flex flex-col gap-8 px-4 xl:px-[15%] py-10">
+			<div className="flex flex-col gap-8 px-4 xl:px-[15%] pt-5 pb-14">
 
 				<div className="flex flex-col gap-4 ">
-					{/* <h2 className={`${fontRoboto.className} text-2xl text-center`}>Crecimiento empresarial en Colombia</h2> */}
+					<h2 className={`${fontRoboto.className} text-2xl text-center`}>Crecimiento empresarial en Colombia</h2>
 
 					{/* <p className={`${fontQuicksand.className} text-lg`}>
 						Somos un proyecto dedicado y especializado en hacer seguimiento y realizar análisis
@@ -51,7 +51,7 @@ export default function Home() {
 
 				<h4 className={`${fontRoboto.className} text-2xl`}>Empresas más relevantes</h4>
 
-				<div className="flex flex-col gap-4 md:flex-row overflow-x-scroll grow">
+				<div className="flex flex-col gap-4 md:flex-row overflow-x-scroll grow pb-4">
 					{
 						max_ganancias.map((enterprise, index) => (
 							<EnterpriseCard
@@ -74,13 +74,13 @@ export default function Home() {
 			></iframe> */}
 		</section>
 	);
+}
 
-	function Section(props: { title: string, content: string}) {
-		return (
-			<>
-			<h2 className={`${fontRoboto.className} text-xl`}>{props.title}</h2>
-			<p className={`${fontQuicksand.className} text-lg`}>{props.content}</p>
-			</>
-		)
-	}
+export function Section(props: { title: string, content: string}) {
+	return (
+		<>
+		<h2 className={`${fontRoboto.className} text-xl`}>{props.title}</h2>
+		<p className={`${fontQuicksand.className} text-lg`}>{props.content}</p>
+		</>
+	)
 }
