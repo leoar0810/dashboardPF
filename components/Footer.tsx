@@ -28,8 +28,8 @@ export default function Footer() {
         <div className={`
             w-full  
             grid grid-cols-2  gap-5 md:gap-16 px-6 md:px-10 
-            md:flex md:justify-center md:items-start lg:gap-12 py-6
-            bg-[#033E8C]  justify-self-end self-end ${fontQuicksand.className}`}
+            md:flex md:justify-center md:items-start lg:gap-12 py-3
+            bg-[#0F3460]  justify-self-end self-end ${fontQuicksand.className}`}
         >
             <div className={`${fontQuicksand} text-white justify-center items-center h-full flex flex-col gap-4 md:mx-auto`}>
                 {/* <img src='/icons/logo.png' alt="Logo" className="w-[73px] h-[36px] md:w-[100px] md:h-[50px] lg:w-[100px] lg:h-[50px]" /> */}
