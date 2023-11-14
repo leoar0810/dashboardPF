@@ -7,6 +7,7 @@ import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import { Quicksand } from "next/font/google";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
 	title: {
@@ -45,14 +46,8 @@ export default function RootLayout({
 						<main className="flex-grow bg-slate-50">
 							{children}
 						</main>
-						<footer className={`
-							w-full flex gap-4 items-center 
-							justify-between px-10 py-8 bg-[#00A9FF] text-white
-							${fontQuicksand.className}
-						`}>
-							<p>&copy; 2023 - Estadísticas Empresas en Colombia</p>
-							<p>By Leonardo Aguilera - Juan Julio - Luis Evilla</p>
-						</footer>
+					
+						<Footer/>
 					</div>
 				</Providers>
 			</body>
