@@ -25,7 +25,7 @@ export default function ModelsPage() {
 				</p>
 
 				<p>
-					Si deseas conocer más del proceso detrás de estos resultados puedes consultarlos <Link href="/about">Aquí</Link>
+					Si deseas conocer más del proceso detrás de estos resultados puedes consultarlos <Link href="/process">Aquí</Link>
 				</p>
 			</div>
 

@@ -76,7 +76,7 @@ export default function Home() {
 	);
 }
 
-export function Section(props: { title: string, content: string}) {
+function Section(props: { title: string, content: string}) {
 	return (
 		<>
 		<h2 className={`${fontRoboto.className} text-xl`}>{props.title}</h2>

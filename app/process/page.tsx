@@ -1,5 +1,4 @@
 import { fontRoboto, fontQuicksand } from "@/config/fonts"
-import { Section } from "../page"
 import { Link } from "@nextui-org/react"
 
 export default function Process() {
