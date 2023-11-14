@@ -16,7 +16,7 @@ export default function ModelsPage() {
 				</p>
 			</div>
 
-			<div className="flex flex-col md:flex-row gap-4">
+			<div className="flex flex-col md:flex-row gap-4 lg:gap-8">
 				{
 					models.map((model, index) => (
 						<CustomCard
