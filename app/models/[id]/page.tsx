@@ -47,6 +47,19 @@ export default function ModelDetail({ params }: any) {
           </a>
         </>
       )}
+      {model?.github && (
+        <>
+          <h4 className={`${fontRoboto.className} text-xl font-medium `}>
+            Acceso al Repositorio
+          </h4>
+          <a
+            href={model.github}
+            className={`${fontQuicksand.className} text-sky-700`}
+          >
+            Creación del pipeline con Databricks
+          </a>
+        </>
+      )}
 
       <iframe
         title="Report Section"
