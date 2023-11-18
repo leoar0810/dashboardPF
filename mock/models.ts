@@ -7,7 +7,7 @@ export const models = [
       {
         title: "Introducción",
         content:
-          "K-means es un algoritmo de aprendizaje automático no supervisado que agrupa datos en k clusters en función de características similares. Este enfoque permite explorar patrones ocultos y similitudes en conjuntos de datos financieros.",
+          "K-means es <br>un algoritmo<br> de aprendizaje automático no supervisado que agrupa datos en k clusters en función de características similares. Este enfoque permite explorar patrones ocultos y similitudes en conjuntos de datos financieros.",
       },
       {
         title: "Variables Utilizadas",
@@ -36,6 +36,8 @@ export const models = [
     url: "/models/1",
     dashboard:
       "https://app.powerbi.com/view?r=eyJrIjoiNGEzYTBlYjAtY2JlNi00YTdiLWI3ZWYtYzAwMzJkMmRmMmRlIiwidCI6ImJhYjBiNjc5LWJkNWYtNGZlOC1iNTE2LWM2YjhiMzE3Yzc4MiIsImMiOjR9",
+    colab:
+      "https://colab.research.google.com/drive/16WL-vO5rRJE9tZNCehxk5kZb9Epl9qL9?usp=sharing#scrollTo=fMoeg7ObbccZ",
   },
   {
     id: 2,
@@ -88,5 +90,6 @@ export const models = [
     url: "/models/2",
     dashboard:
       "https://app.powerbi.com/view?r=eyJrIjoiMjc3YjZiNGQtMGQ2NC00ZThlLWE2ZGQtYTkwZWEwZjllNDY0IiwidCI6ImJhYjBiNjc5LWJkNWYtNGZlOC1iNTE2LWM2YjhiMzE3Yzc4MiIsImMiOjR9",
+    colab: "",
   },
 ];
