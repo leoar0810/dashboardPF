@@ -110,7 +110,7 @@ function New() {
             target="_blank"
             className="text-white font-medium text-large"
           >
-            MinTIC presentó el programa "Inicia con TIC" en Riochacha
+            {`MinTIC presentó el programa "Inicia con TIC" en Riochacha`} 
           </a>
         </CardHeader>
         <Image
