@@ -2,12 +2,12 @@ export const models = [
     {
       id: 1,
       title: "Clusterización",
-      shortDescription: `La clusterización, un pilar esencial en el vasto campo de la analítica de datos, representa una herramienta poderosa para desentrañar la complejidad inherente a conjuntos masivos de información. Este modelo se erige como un faro en la vastedad de datos, permitiendo la identificación y agrupación de patrones similares para proporcionar una comprensión profunda y estratégica.`,
+      shortDescription: "La clusterización, un pilar esencial en el vasto campo de la analítica de datos, representa una herramienta poderosa para desentrañar la complejidad inherente a conjuntos masivos de información. Este modelo se erige como un faro en la vastedad de datos, permitiendo la identificación y agrupación de patrones similares para proporcionar una comprensión profunda y estratégica.",
       items: [
         {
           title: "Introducción",
           content:
-            "K-means es <br>un algoritmo<br> de aprendizaje automático no supervisado que agrupa datos en k clusters en función de características similares. Este enfoque permite explorar patrones ocultos y similitudes en conjuntos de datos financieros.",
+            "K-means es un algoritmo de aprendizaje automático no supervisado que agrupa datos en k clusters en función de características similares. Este enfoque permite explorar patrones ocultos y similitudes en conjuntos de datos financieros.",
         },
         {
           title: "Variables Utilizadas",
@@ -38,51 +38,32 @@ export const models = [
         "https://app.powerbi.com/view?r=eyJrIjoiNGEzYTBlYjAtY2JlNi00YTdiLWI3ZWYtYzAwMzJkMmRmMmRlIiwidCI6ImJhYjBiNjc5LWJkNWYtNGZlOC1iNTE2LWM2YjhiMzE3Yzc4MiIsImMiOjR9",
       colab:
         "https://colab.research.google.com/drive/16WL-vO5rRJE9tZNCehxk5kZb9Epl9qL9?usp=sharing#scrollTo=fMoeg7ObbccZ",
+      github: "",
     },
     {
       id: 2,
       title: "Estrella",
-      shortDescription: `El modelo de estrella es un modelo de datos que se utiliza para representar entidades de un negocio, y sus relaciones. Este modelo es muy utilizado en el diseño de bases de datos relacionales, y es el modelo que se utiliza en la mayoría de los sistemas de bases de datos comerciales.`,
+      shortDescription: "El modelo de estrella es un modelo de datos que se utiliza para representar entidades de un negocio, y sus relaciones. Este modelo es muy utilizado en el diseño de bases de datos relacionales, y es el modelo que se utiliza en la mayoría de los sistemas de bases de datos comerciales.",
       items: [
         {
-          title: "Principios Fundamentales:",
+          title: "Modelo Estrella en Almacenamiento de Datos",
           content:
-            "En el corazón de este modelo yace la premisa fundamental de la similitud intragrupo y la disparidad intergrupo. Al aplicar algoritmos avanzados, el sistema examina minuciosamente las características de los datos, agrupando puntos afines mientras mantiene una distancia distintiva entre los grupos. Esta metodología facilita la detección de tendencias, comportamientos y relaciones que podrían pasar desapercibidos en un análisis convencional.",
+            "La implementación de un modelo estrella es esencial para el almacenamiento eficiente de datos empresariales. Este enfoque organiza la información en una estructura central, con una tabla de hechos rodeada por tablas de dimensiones.",
         },
         {
-          title: "Aplicaciones Versátiles:",
+          title: "Integración con Power BI",
           content:
-            "Desde la segmentación de clientes hasta la optimización de procesos industriales, el modelo de clusterización encuentra su aplicabilidad en una variedad de campos. Identifica segmentos de mercado, perfiles de consumidores y anomalías en la producción, proporcionando una visión holística que orienta la toma de decisiones informadas.",
+            "Una vez que los datos se almacenan utilizando el modelo estrella, se facilita la integración con herramientas de visualización como Power BI. Power BI puede conectarse directamente al modelo estrella y aprovechar las relaciones entre las tablas de hechos y dimensiones para crear visualizaciones dinámicas y perspicaces.",
         },
         {
-          title: "Escalabilidad y Adaptabilidad:",
+          title: "Ventajas de la Representación Visual",
           content:
-            "Este modelo no se ve limitado por la magnitud de los datos. Su capacidad de escalabilidad le permite abordar conjuntos masivos con la misma eficacia que conjuntos más pequeños, garantizando que su utilidad no se vea comprometida por la escala de la información.",
+            "La representación visual a través de Power BI proporciona una comprensión rápida y clara de los datos financieros. Gracias al modelo estrella, se pueden explorar tendencias, identificar correlaciones y obtener insights estratégicos. Las visualizaciones interactivas facilitan la identificación de patrones y la toma de decisiones informadas.",
         },
         {
-          title: "Iteración Continua:",
+          title: "Optimización del Rendimiento",
           content:
-            "La analítica de datos mediante clusterización es un proceso iterativo. A medida que evolucionan los conjuntos de datos y se generan nuevos, el modelo se ajusta para capturar patrones emergentes, proporcionando una visión dinámica y actualizada a lo largo del tiempo.",
-        },
-        {
-          title: "Beneficios Tangibles:",
-          content:
-            "La implementación de este modelo no solo revela patrones ocultos, sino que también optimiza la eficiencia operativa, minimiza riesgos y fomenta la innovación. Facilita una toma de decisiones precisa al ofrecer una comprensión detallada de la estructura subyacente de los datos.",
-        },
-        {
-          title: "Consideraciones Éticas:",
-          content:
-            "A medida que aprovechamos la clusterización para obtener información valiosa, es imperativo abordar las consideraciones éticas. La privacidad y la seguridad de los datos son aspectos centrales, y su protección debe ser inherente al diseño y la implementación del modelo.",
-        },
-        {
-          title: "Perspectivas Futuras y Oportunidades:",
-          content:
-            "A medida que Colombia continúa su ascenso en el escenario empresarial mundial, las oportunidades para inversores, emprendedores y profesionales son vastas. La estabilidad macroeconómica, la infraestructura en desarrollo y el compromiso con la innovación posicionan a Colombia como un destino atractivo para aquellos que buscan participar en el florecimiento de una economía vibrante.",
-        },
-        {
-          title: "En Resumen:",
-          content:
-            "En resumen, el modelo de análisis de datos mediante clusterización se erige como un faro en el vasto océano de información, guiándonos hacia la comprensión y la acción. Su capacidad para revelar patrones intrincados y su versatilidad hacen de este enfoque una herramienta esencial para aquellos que buscan desentrañar los misterios inherentes a conjuntos de datos complejos.",
+            "El modelo estrella no solo mejora la eficiencia del almacenamiento de datos, sino que también optimiza el rendimiento de las consultas. Power BI puede aprovechar las estructuras de datos bien organizadas para generar informes y paneles de manera más rápida y eficiente.",
         },
       ],
       image:
@@ -91,5 +72,6 @@ export const models = [
       dashboard:
         "https://app.powerbi.com/view?r=eyJrIjoiMjc3YjZiNGQtMGQ2NC00ZThlLWE2ZGQtYTkwZWEwZjllNDY0IiwidCI6ImJhYjBiNjc5LWJkNWYtNGZlOC1iNTE2LWM2YjhiMzE3Yzc4MiIsImMiOjR9",
       colab: "",
+      github: "https://github.com/djulioj/FinalProject_Databricks.git",
     },
   ];
