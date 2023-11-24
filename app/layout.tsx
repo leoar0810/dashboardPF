@@ -8,6 +8,7 @@ import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import { Quicksand } from "next/font/google";
 import Footer from "@/components/Footer";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
 	title: {
@@ -42,6 +43,7 @@ export default function RootLayout({
 			>
 				<Providers>
 					<div className="relative flex flex-col h-screen">
+						<Toaster/>
 						<Navbar />
 						<main className="flex-grow bg-slate-50">
 							{children}

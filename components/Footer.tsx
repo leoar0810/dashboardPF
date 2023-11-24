@@ -1,4 +1,5 @@
 "use client";
+import { supabase } from "@/app/lib/initSupabase";
 import { fontQuicksand } from "@/config/fonts";
 import { Button, Input } from "@nextui-org/react"
 // import axios from "axios";
@@ -14,8 +15,11 @@ export default function Footer() {
 
         try {
             setLoading(true);
+            
+            const { data, error } = await supabase.from("newsletter").insert({ email });
             // const res = await axios.post("/api/newsletter", { email });
-
+            if (error) console.error(error);
+            
             toast.success("Gracias por suscribirte");
         } catch (error) {
             toast.error("Ha ocurrido un error");
